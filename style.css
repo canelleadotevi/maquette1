@@ -181,6 +181,8 @@ img {
 .Usage_box {
   background-repeat: no-repeat;
   background-position: center;
+  min-height: 187px;
+  width: 904.58px;
   background-image: url(images/bg.png);
   margin: 24px;
 }
@@ -196,7 +198,7 @@ img {
   align-items: center;
 }
 
-.Usage_box h3 {
+.Usage_box h2 {
   text-align: center;
   font-family: 'HankenGrotesk-Regular';
   font-weight: 700px;
@@ -232,7 +234,10 @@ img {
   color: white;
   width: 50px;
   height: 26px;
+  text-align: center;
+  border-radius: 3px;
   margin-bottom: 24px;
+  
 }
 
 .tool_content {
